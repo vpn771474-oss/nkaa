@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@theme {
+  --font-arabic: "IBM Plex Sans Arabic", "Tajawal", system-ui, sans-serif;
+  --color-warm-white: #FFFEFB;
+  --color-main-black: #111111;
+  --color-deep-plum: #3A293B;
+  --color-primary-plum: #68475E;
+  --color-soft-sage: #A8B6A0;
+  --color-light-sage: #DCE3D8;
+  --color-warm-blush: #D8BFC2;
+  --color-soft-cream: #F4F0E9;
+  --color-border-subtle: #E7E1DA;
+  --color-secondary-text: #6F6A69;
+  --color-main-text: #151314;
+}
+
+:root {
+  --warm-white: #FFFEFB;
+  --main-black: #111111;
+  --deep-plum: #3A293B;
+  --primary-plum: #68475E;
+  --soft-sage: #A8B6A0;
+  --light-sage: #DCE3D8;
+  --warm-blush: #D8BFC2;
+  --soft-cream: #F4F0E9;
+  --border-color: #E7E1DA;
+  --secondary-text: #6F6A69;
+  --main-text: #151314;
+}
+
+body {
+  font-family: "IBM Plex Sans Arabic", "Tajawal", system-ui, -apple-system, sans-serif;
+  background-color: #FFFEFB;
+  color: #151314;
+  overflow-x: hidden;
+}
+
+html[lang="en"] body,
+html[dir="ltr"] body {
+  font-family: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F4F0E9;
+}
+::-webkit-scrollbar-thumb {
+  background: #D8BFC2;
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #A8B6A0;
+}

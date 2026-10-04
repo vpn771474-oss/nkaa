@@ -1,0 +1,8 @@
+{
+  "name": " نَقاء لطب الأسنان",
+  "description": "نَقاء لطب الأسنان — تجربة عصرية للعناية بصحة الفم والأسنان وخدمات الأسنان في الرياض.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
